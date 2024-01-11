@@ -1,0 +1,65 @@
+/* CSS Document */
+
+html, body, main{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #575D71;
+	/*background-color: #EFF0FA;*/
+}
+
+nav, nav ul a, ul a{
+	background-color: #FFF;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav i{color: #107C41;}
+nav .brand-logo img{padding-top: 8px;}
+
+nav ul a:hover, ul a:hover{
+	background-color: #FFF !important;
+	color: #107C41;
+}
+
+.sidenav li a i{margin: 0!important;}
+
+.tabs .tab a{
+	color: #333;
+	font-size: 16px;
+}
+
+.tabs .tab a:hover{
+	color: #107C41;
+}
+
+.hero-img{
+	background: url("../i/hero-img.png") no-repeat center; 
+	background-size: cover;
+	min-height: 480px;
+	padding: 6em 0;
+}
+
+.hero-img p{
+	font-size: 1.5em;
+	line-height: 1.25;
+	margin-bottom: 1.5em;
+}
+
+.page-footer{
+	background-color: #FFF;
+	color: #575D71;
+	padding-top: 0;
+}
+.page-footer .btn-small{
+	border: 1px solid #999;
+}
+.page-footer p{margin-top: 0; font-size: 14px;}
+
+.footer-copyright i.left{margin-right: 8px; font-size: 18px;}
+
+.card .card-content{
+	padding: 0 24px;
+}
+
+.footer-copyright span{margin-right: 12px; line-height: 1;}
